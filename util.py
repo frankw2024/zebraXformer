@@ -353,7 +353,7 @@ def build_dataset(case_names):
     return fish_metrics1n
 
 def eval_model(classifier_model, test_loader):
-
+    classifier_model.to(device)
     # 模型评估（在测试集上）
     classifier_model.eval()
     all_preds = []

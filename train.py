@@ -41,7 +41,8 @@ os.chdir('./')
 # Verify the change
 print("Current working directory:", os.getcwd())
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+#device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")
 
 if device.type == "cuda":
     print("CUDA is available. Using GPU.")
@@ -69,29 +70,6 @@ len_metrics = 15+150 + hard_max_dist +3+150
 #common_path = ".\\ground_truth_std\\"
 common_path = ".\\data\\"
 end_path = "\\trajectories\\without_gaps.npy"
-
-'''
-def build_dataset(case_names):
-    #change this to the path to you  data, e.g., common_path = ".\\ground_truth_std\\"
-    # the data directory should be like this:
-    # common_path
-    # ├── healthy
-    # │   ├── c52
-    # │   ├── c54
-    # │   └── c89
-    # └── severe    
-    
-    end_path = "\\trajectories\\without_gaps.npy"
-    fish_metrics1n = []
-    for case_name in case_names:
-        trajectories_path1 =  common_path + case_name + end_path
-        tr1 = tt.Trajectories.from_idtrackerai(
-            trajectories_path1, interpolate_nans=True, smooth_params={"sigma": 1}
-        )
-        fish_metrics1, fish_data, vmax, min_x, max_x, min_y, max_y = pre_dataset1(tr1)
-        fish_metrics1n = append_datasets(tr1, fish_metrics1n, fish_metrics1)
-    return fish_metrics1n
-'''
 
 case_names = ["healthy\\c52", "healthy\\c54", "healthy\\c89","severe\\e86", "severe\\e82", "severe\\e85", "moderate\\e71", "moderate\\e75", "moderate\\e74"]
 fish_metrics = build_dataset(case_names)

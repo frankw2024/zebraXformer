@@ -54,12 +54,12 @@ else:
 feature_dim = 1  # 输入特征维度
 # Initialize the MAE model architecture
 mae_model1 = MaskedAutoencoderModel(feature_dim=feature_dim, d_model=72, nhead=6, num_layers=2)
-mae_model1.load_state_dict(torch.load('mae_model.pth'))
+mae_model1.load_state_dict(torch.load('mae_model.pth', map_location=device))
 
 pretrained_encoder = mae_model1.encoder 
 # Initialize the classifier model architecture
 classifier_model1 = TrajectoryClassifier(encoder=pretrained_encoder, d_model=72, num_classes=3)
-classifier_model1.load_state_dict(torch.load('classifier_model.pth'))
+classifier_model1.load_state_dict(torch.load('classifier_model.pth', map_location=device))
 classifier_model = classifier_model1
 # Ensure the new classifier model is on the correct device
 classifier_model1.to(device)
