@@ -1,0 +1,72 @@
+2025-03-08 22:23:30,687 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\healthy\c52\trajectories\without_gaps.npy
+2025-03-08 22:23:30,865 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\healthy\c54\trajectories\without_gaps.npy
+2025-03-08 22:23:30,921 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\healthy\c89\trajectories\without_gaps.npy
+2025-03-08 22:23:31,094 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\severe\e86\trajectories\without_gaps.npy
+2025-03-08 22:23:31,271 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\severe\e82\trajectories\without_gaps.npy
+2025-03-08 22:23:31,442 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\severe\e85\trajectories\without_gaps.npy
+2025-03-08 22:23:31,611 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\moderate\e71\trajectories\without_gaps.npy
+2025-03-08 22:23:31,883 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\moderate\e75\trajectories\without_gaps.npy
+2025-03-08 22:23:32,154 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\moderate\e74\trajectories\without_gaps.npy
+2025-03-08 22:23:33,738 - INFO - Epoch 1/1000, Pretrain MSE Loss = 1.0644
+2025-03-08 22:23:37,714 - INFO - Epoch 41/1000, Pretrain MSE Loss = 0.8791
+2025-03-08 22:23:41,682 - INFO - Epoch 81/1000, Pretrain MSE Loss = 0.4139
+2025-03-08 22:23:45,666 - INFO - Epoch 121/1000, Pretrain MSE Loss = 0.4057
+2025-03-08 22:23:49,594 - INFO - Epoch 161/1000, Pretrain MSE Loss = 0.2427
+2025-03-08 22:23:53,501 - INFO - Epoch 201/1000, Pretrain MSE Loss = 0.2189
+2025-03-08 22:23:57,496 - INFO - Epoch 241/1000, Pretrain MSE Loss = 0.2259
+2025-03-08 22:24:02,450 - INFO - Epoch 281/1000, Pretrain MSE Loss = 0.1691
+2025-03-08 22:24:07,284 - INFO - Epoch 321/1000, Pretrain MSE Loss = 0.1312
+2025-03-08 22:24:12,268 - INFO - Epoch 361/1000, Pretrain MSE Loss = 0.1522
+2025-03-08 22:24:17,127 - INFO - Epoch 401/1000, Pretrain MSE Loss = 0.2192
+2025-03-08 22:24:21,897 - INFO - Epoch 441/1000, Pretrain MSE Loss = 0.1515
+2025-03-08 22:24:26,908 - INFO - Epoch 481/1000, Pretrain MSE Loss = 0.1234
+2025-03-08 22:24:31,746 - INFO - Epoch 521/1000, Pretrain MSE Loss = 0.1292
+2025-03-08 22:24:36,681 - INFO - Epoch 561/1000, Pretrain MSE Loss = 0.0995
+2025-03-08 22:24:41,399 - INFO - Epoch 601/1000, Pretrain MSE Loss = 0.1155
+2025-03-08 22:24:46,206 - INFO - Epoch 641/1000, Pretrain MSE Loss = 0.0842
+2025-03-08 22:24:51,180 - INFO - Epoch 681/1000, Pretrain MSE Loss = 0.1137
+2025-03-08 22:24:56,158 - INFO - Epoch 721/1000, Pretrain MSE Loss = 0.0797
+2025-03-08 22:25:01,196 - INFO - Epoch 761/1000, Pretrain MSE Loss = 0.0933
+2025-03-08 22:25:06,270 - INFO - Epoch 801/1000, Pretrain MSE Loss = 0.0704
+2025-03-08 22:25:11,265 - INFO - Epoch 841/1000, Pretrain MSE Loss = 0.0717
+2025-03-08 22:25:16,209 - INFO - Epoch 881/1000, Pretrain MSE Loss = 0.0724
+2025-03-08 22:25:21,147 - INFO - Epoch 921/1000, Pretrain MSE Loss = 0.0815
+2025-03-08 22:25:26,201 - INFO - Epoch 961/1000, Pretrain MSE Loss = 0.0529
+2025-03-08 22:25:30,199 - INFO - Epoch 1/1000, Train Loss = 1.1221, Train Acc = 0.53
+2025-03-08 22:25:31,777 - INFO - Epoch 41/1000, Train Loss = 0.9151, Train Acc = 0.72
+2025-03-08 22:25:33,330 - INFO - Epoch 81/1000, Train Loss = 0.8007, Train Acc = 0.86
+2025-03-08 22:25:34,928 - INFO - Epoch 121/1000, Train Loss = 0.7068, Train Acc = 0.83
+2025-03-08 22:25:35,467 - INFO - Epoch 135/1000, Train Loss = 0.6867, Train Acc = 0.90
+2025-03-08 22:25:35,516 - INFO - Confusion Matrix:
+[[21  9  0]
+ [ 0 29  1]
+ [ 0  6 24]]
+2025-03-08 22:25:35,517 - INFO - Classification Report:
+                   precision    recall  f1-score   support
+
+          Healthy       1.00      0.70      0.82        30
+  Severe Diabetic       0.66      0.97      0.78        30
+Moderate Diabetic       0.96      0.80      0.87        30
+
+         accuracy                           0.82        90
+        macro avg       0.87      0.82      0.83        90
+     weighted avg       0.87      0.82      0.83        90
+
+2025-03-08 22:25:35,517 - INFO - End of evaluation
+2025-03-08 22:25:35,578 - INFO - Confusion Matrix:
+[[21  9  0]
+ [ 0 29  1]
+ [ 0  6 24]]
+2025-03-08 22:25:35,579 - INFO - Classification Report:
+                   precision    recall  f1-score   support
+
+          Healthy       1.00      0.70      0.82        30
+  Severe Diabetic       0.66      0.97      0.78        30
+Moderate Diabetic       0.96      0.80      0.87        30
+
+         accuracy                           0.82        90
+        macro avg       0.87      0.82      0.83        90
+     weighted avg       0.87      0.82      0.83        90
+
+2025-03-08 22:25:35,579 - INFO - End of evaluation
+2025-03-08 22:25:35,580 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\severe\e85\trajectories\without_gaps.npy

@@ -41,8 +41,7 @@ os.chdir('./')
 # Verify the change
 print("Current working directory:", os.getcwd())
 
-#device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-device = torch.device("cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 if device.type == "cuda":
     print("CUDA is available. Using GPU.")

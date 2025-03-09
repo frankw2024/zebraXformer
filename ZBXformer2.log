@@ -1,0 +1,11 @@
+2025-03-08 22:20:07,317 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\healthy\c52\trajectories\without_gaps.npy
+2025-03-08 22:20:07,492 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\healthy\c54\trajectories\without_gaps.npy
+2025-03-08 22:20:07,547 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\healthy\c89\trajectories\without_gaps.npy
+2025-03-08 22:20:07,715 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\severe\e86\trajectories\without_gaps.npy
+2025-03-08 22:20:07,894 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\severe\e82\trajectories\without_gaps.npy
+2025-03-08 22:20:08,065 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\severe\e85\trajectories\without_gaps.npy
+2025-03-08 22:20:08,234 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\moderate\e71\trajectories\without_gaps.npy
+2025-03-08 22:20:08,509 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\moderate\e75\trajectories\without_gaps.npy
+2025-03-08 22:20:08,786 - INFO - Trajectories loaded from C:\Users\xiaon\source\repos\idtrackerai\predict\zebraXformer\data\moderate\e74\trajectories\without_gaps.npy
+2025-03-08 22:20:13,039 - INFO - Epoch 1/1000, Pretrain MSE Loss = 1.2159
+2025-03-08 22:21:59,795 - INFO - Epoch 41/1000, Pretrain MSE Loss = 0.9703
