@@ -1,0 +1,29 @@
+{
+    "version": "5.2.12",
+    "video_paths": [
+        "C:\\Users\\xiaon\\mydoc\\ant\\niu\\science2025\\zebraFish\\jasper\\videos\\c54\\VID_20250207_054_c.mp4"
+    ],
+    "frames_per_second": 59,
+    "body_length": 134.0,
+    "stats": {
+        "estimated_accuracy": 0.921922178544978,
+        "estimated_accuracy_after_interpolation": 0.9821862102452051,
+        "percentage_identified": 0.9479444444444445,
+        "estimated_accuracy_identified": 0.9821862102452051
+    },
+    "setup_points": {},
+    "identities_labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+    ],
+    "identities_groups": {},
+    "length_unit": null
+}
